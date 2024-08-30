@@ -31,6 +31,7 @@ export default function Home() {
             <h1 className="text-2xl font-bold mb-4">User Data</h1>
             <ul>
               <li>ID: {userData.id}</li>
+              <li>Username: {userData.username}</li>
               <li>FIrst Name: {userData.first_name}</li>
               <li>Last Name: {userData.last_name}</li>
               <li>ID: {userData.language_code}</li>
